@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/m_1"
+        android:background="@drawable/bg_round_corner_color_primary"
+        android:padding="@dimen/m_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvCarCount"
+            style="@style/TextLargeMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/width_marker_icon"
+            android:layout_height="@dimen/height_marker_icon"
+            android:layout_marginLeft="@dimen/p_1"
+            android:layout_marginBottom="6dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_car"
+            app:layout_constraintBottom_toBottomOf="@+id/tvCarCount"
+            app:layout_constraintStart_toEndOf="@+id/tvCarCount" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/p_1"
+            android:text="Avaliable"
+            app:layout_constraintStart_toStartOf="@+id/tvCarCount"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <io.github.florent37.shapeofview.shapes.TriangleView
+        android:layout_width="36dp"
+        android:layout_height="12dp"
+        android:background="@color/color_primary"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:shape_triangle_percentBottom="0.5"
+        app:shape_triangle_percentLeft="0"
+        app:shape_triangle_percentRight="0">
+<View
+    android:layout_width="match_parent"
+    android:background="@color/color_primary"
+    android:layout_height="match_parent"/>
+        <!-- YOUR CONTENT -->
+
+    </io.github.florent37.shapeofview.shapes.TriangleView>
+</androidx.constraintlayout.widget.ConstraintLayout>

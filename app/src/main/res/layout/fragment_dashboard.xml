@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:layout_marginLeft="@dimen/m_1"
+        android:layout_marginTop="@dimen/m_2"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/action_icon_siz"
+        android:layout_height="@dimen/action_icon_siz"
+        android:layout_marginRight="@dimen/m_2"
+        android:background="@drawable/bg_shope_circle_white"
+        android:elevation="@dimen/evaluation_top"
+        android:padding="@dimen/g_3"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:src="@drawable/ico_actionalert"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/layout_select_time_location_car"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/m_2"
+        android:elevation="@dimen/evaluation_top"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </include>
+
+    <ImageView
+        android:layout_width="@dimen/action_icon_siz"
+        android:layout_height="@dimen/action_icon_siz"
+        android:layout_marginRight="@dimen/m_2"
+        android:background="@drawable/bg_shope_circle_white"
+        android:clickable="true"
+        android:elevation="@dimen/evaluation_top"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="@dimen/g_3"
+        android:layout_marginBottom="@dimen/m_1"
+        android:src="@drawable/ico_actionlocate"
+        app:layout_constraintBottom_toBottomOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/m_2"
+        android:text="Rent a car"
+        android:textColor="@color/pink_500"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/include4"
+        app:layout_constraintStart_toStartOf="@+id/include4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

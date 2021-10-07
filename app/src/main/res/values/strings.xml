@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CarRent</string>
+    <string name="title_home">Rent a car</string>
+    <string name="title_dashboard">Booking</string>
+    <string name="title_notifications">Refer a friend</string>
+    <string name="title_setting">Account</string>
+    <string name="m_k">AIzaSyA13-Ne_yWB9zm_LfaASJwGHSY5N_Km7o4</string>
+    <string name="text_location">Location</string>
+    <string name="text_date_and_time">Date &amp; Time</string>
+    <string name="text_current_location">Current Location</string>
+    <string name="text_now">Now</string>
+    <string name="text_duration">Duration</string>
+    <string name="text_1hr">1hr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_search_result">Search Result</string>
+    <string name="three_plus">300+</string>
+    <string name="text_car_found">car found</string>
+    <string name="text_seater_7">5 Seater</string>
+    <string name="text_Snm1234z">SMN1000Z</string>
+    <string name="text_dummy_car">Mazda 3</string>
+    <string name="text_rent_fee">Rental Fee</string>
+    <string name="text_price">Fr.$300/hr</string>
+    <string name="text_mile_age_fee">Mileage fee</string>
+    <string name="text_price_mileage">$0.40/km</string>
+    <string name="text_booking_id">Booking ID : 4413331</string>
+    <string name="text_sms_100z">SMS1000Z</string>
+    <string name="text_start_date">Start date</string>
+    <string name="text_end_date">End date</string>
+    <string name="text_duration_">Duration</string>
+    <string name="text_day">days</string>
+    <string name="text_hours">hours</string>
+    <string name="add_to_calendar">Add to calendar</string>
+    <string name="text_exdent">Extend</string>
+    <string name="text_pickup_car_view">Pick up car at</string>
+    <string name="dummy_location">192 Punggol Road P100 Multi Storey Car Park</string>
+    <string name="text_get_direction">Get Directions</string>
+    <string name="text_estimate_total">Estimated total</string>
+    <string name="text_need_help">Need help?</string>
+    <string name="text_cancel_booking">Cancel his booking</string>
+</resources>

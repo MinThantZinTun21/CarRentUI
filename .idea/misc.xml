@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/drawable/bg_black_stroke.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/bg_blue_chip.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/bg_round_corner_color_primary.xml" value="0.1145" />
+        <entry key="app/src/main/res/drawable/bg_round_corner_large_color_primari.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/bg_shape_white_image_view.xml" value="0.2125" />
+        <entry key="app/src/main/res/drawable/bg_shope_circle_white.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/bg_storke_color_primary.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/cta_secondary_whwith_dark.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/ic_car.xml" value="0.193" />
+        <entry key="app/src/main/res/drawable/ic_car_action.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/ic_car_green.xml" value="0.193" />
+        <entry key="app/src/main/res/drawable/ic_cta_secondary_whwith_dark.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/ico_elp.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_car_detail.xml" value="0.29762054443359376" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.213768115942029" />
+        <entry key="app/src/main/res/layout/fragment_car_search_result.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_car.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_car_detail_info_layout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_car_green.xml" value="0.18489583333333334" />
+        <entry key="app/src/main/res/layout/item_car_park_place.xml" value="0.2942708333333333" />
+        <entry key="app/src/main/res/layout/item_car_slider.xml" value="0.2942708333333333" />
+        <entry key="app/src/main/res/layout/item_custom_marker_car.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_more_car_park.xml" value="0.2942708333333333" />
+        <entry key="app/src/main/res/layout/layout_car_search_input.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/layout_duration.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/layout_pickup_car.xml" value="0.347058614095052" />
+        <entry key="app/src/main/res/layout/layout_select_time_location_car.xml" value="0.36620483398437503" />
+        <entry key="app/src/main/res/layout/view_go_get_marker.xml" value="0.10192810058593751" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
